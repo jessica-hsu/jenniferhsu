@@ -12,6 +12,7 @@ header {
 	text-align: center;
 	font-family: 'Spectral SC', serif;
 	font-size: 300%;
+	color: rgb(8, 66, 79);
 }
 
 #subheader {
@@ -33,5 +34,16 @@ header {
 
 .choice:hover {
 	cursor: pointer;
-	background-color: rgba(48, 50, 53, 0.2);
+	background-color: rgba(8, 99, 119, 0.3);
+}
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 500px) {
+	header {
+		margin-top: 45%;
+	}
 }
