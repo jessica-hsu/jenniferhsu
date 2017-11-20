@@ -1,75 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Spectral+SC');
 
-body {
-	height: 100%;
+body, html, .container-fluid {
+	margin: 0;
 	width: 100%;
-	background-color: #efeaea;
-	color: #777777;
-	transition: background-color .5s;
-	
+	height: 100%;
+	padding: 0;
 }
 
-
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
-}
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-}
-
-#about, #work, #research, #contact{
+header {
+	margin-top: 18%;
 	text-align: center;
-	
+	font-family: 'Spectral SC', serif;
+	font-size: 300%;
 }
 
-.header {
-	font-family: Francois One;
-	font-size: 600%;
+#subheader {
+	margin: 2%;
+	text-align: center;
+	font-family: 'Spectral SC', serif;
+	font-size: 125%;
 }
 
-.sub-header {
-	font-family: Francois One;
-	font-size: 400%;
+#choices {
+	padding: 1% 30%;
 }
 
-#job {
+.choice {
+	text-align: center;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 150%;
-	padding: 3%;
-	background-color: #89b4e5;
-	border-radius: 20px;
-	width: 30%;
 }
 
+.choice:hover {
+	cursor: pointer;
+	background-color: rgba(48, 50, 53, 0.2);
+}
